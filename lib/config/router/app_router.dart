@@ -1,5 +1,4 @@
 import 'package:go_router/go_router.dart';
-
 import '../../presentation/screens/screen.dart';
 
 // GoRouter configuration
@@ -18,5 +17,8 @@ final appRouter = GoRouter(
       path: '/cards',
       builder: (context, state) => const CardScreen(),
     ),
+    GoRoute(
+        path: '/progress', builder: (context, state) => const ProgressScrenn()),
   ],
 );
+  
