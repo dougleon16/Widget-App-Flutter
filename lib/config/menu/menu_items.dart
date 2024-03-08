@@ -49,4 +49,9 @@ const appMenuItems = <MenuItems>[
       subtitle: 'Tutorial del aplicativo',
       link: '/tutorial',
       icon: Icons.accessibility_new_rounded),
+  MenuItems(
+      title: 'Infinite Scroll & Pull to Refresh',
+      subtitle: 'Infinite Scroll & Pull to Refresh',
+      link: '/scroll',
+      icon: Icons.list_alt_rounded),
 ];
