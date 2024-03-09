@@ -54,4 +54,14 @@ const appMenuItems = <MenuItems>[
       subtitle: 'Infinite Scroll & Pull to Refresh',
       link: '/scroll',
       icon: Icons.list_alt_rounded),
+  MenuItems(
+      title: 'Counter Riverpod',
+      subtitle: 'Counter Riverpod',
+      link: '/counter',
+      icon: Icons.cloud_circle_rounded),
+  MenuItems(
+      title: 'Theme Changer',
+      subtitle: 'Theme Changer',
+      link: '/theme',
+      icon: Icons.color_lens_outlined),
 ];
